@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>getUserMedia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/app.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>getUserMedia</h1>
+    </header>
+
+    <section id="main">
+      <p>This is an experiment to show off <code>getUserMedia</code>. You need <a href="http://www.opera.com/browser/next/">Opera 12</a> or <a href="http://tools.google.com/dlpage/chromesxs">Chrome Canary</a> (with <a href="http://www.webrtc.org/running-the-demos#TOC-Media-Stream-Flag-">the media stream flag turned on</a>).</p>
+      <p>See the code on <a href="https://github.com/philnash/getUserMedia">github</a>.</p>
+      <h2><a href="#" id="control">Get video</a></h2>
+
+      <video id="video" autoplay height="480" width="640"></video>
+
+      <canvas id="canvas" height="480" width="640"></canvas>
+    </section>
+
+
+    <footer>
+      <section id="about">
+        <p>A <a href="http://twitter.com/philnash">philnash</a> experiment</p>
+      </section>
+    </footer>
+    <!-- <footer>
+      <p>A demo by <a href="http://twitter.com/philnash">philnash</a></p>
+    </footer> -->
+
+    <script src="/app.js"></script>
+  </body>
+</html>

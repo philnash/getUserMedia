@@ -1,0 +1,118 @@
+/*** RESET ***/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, code, del, em, img, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, article, aside, footer, header, hgroup, nav, section, table, caption, tbody, tfoot, thead, tr, th, td{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table {
+/*  border-collapse: collapse;*/
+  border-spacing: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size:62.5%;
+}
+ol, ul {
+  list-style: none;
+}
+/*** STYLE ***/
+body{
+  background:#E34D3F;
+  color:#FFC;
+  text-shadow:#A3372D 0 1px 0;
+  letter-spacing:-0.03em;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a{
+  color:#FFC;
+  background:#E34D3F;
+  text-decoration:none;
+  border-bottom:1px solid #FFC;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition:background 0.3s ease;
+}
+a:hover{
+  text-decoration:none;
+  background:#FFC;
+  color:#E34D3F;
+  text-shadow:none;
+}
+header{
+  width:100%;
+  background:#FFC;
+  color:#E34D3F;
+  margin-bottom:1em;
+  border-bottom:10px solid #A3372D;
+}
+header h1{
+  width:920px;
+  margin:0 auto;
+  padding:0.75em 0 1em;
+  font-size:6.4em;
+  font-weight:bold;
+  letter-spacing:-3px;
+  line-height:1;
+  text-shadow:#A3372D 0 2px 0;
+}
+section#main{
+  overflow:hidden;
+  padding-bottom:1em;
+  border-bottom:2px solid #FFC;
+  font-size:1.6em;
+  line-height:1.5;
+}
+section#main h2{
+  font-size:1.6em;
+  text-align:center;
+  margin-bottom:1em;
+}
+section#main p{
+  width:600px;
+  margin-bottom:1em;
+}
+section#main p code{
+  font-family:'Courier New', Courier, monospace;
+  border:1px solid #A3372D;
+  padding:0 2px;
+}
+section#main video, section#main canvas{
+  box-shadow:0 0 10px 10px #A3372D;
+  display: block;
+  margin:0 auto 30px;
+}
+section#main,
+footer{
+  width:920px;
+  margin:0 auto;
+}
+footer{
+  clear:both;
+  padding:1em 0;
+  border-top:1px solid #A3372D;
+  font-size:1.4em;
+  overflow:hidden;
+  font-size:1.5em;
+  line-height:1.6;
+  width:920px;
+  margin:0 auto;
+}
+footer section#about{
+  width:600px;
+  margin-right:40px;
+  float:left;
+}
+footer section#about p{
+  margin-bottom:1.5em;
+}
+footer nav{
+  width:280px;
+  float:left;
+}
