@@ -26,7 +26,7 @@ PhotoBox.prototype.getStream = function(){
   }else if(navigator.webkitGetUserMedia){
     // we save whether it is webkit as this will work differently later too
     _this.isWebkit = true;
-    navigator.webkitGetUserMedia('video', function(stream){_this.success(stream);}, _this.error);
+    navigator.webkitGetUserMedia({video: true}, function(stream){_this.success(stream);}, _this.error);
   }else{
     alert("No getUserMedia available");
   }
